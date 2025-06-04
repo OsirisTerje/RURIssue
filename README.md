@@ -24,3 +24,5 @@ If you add an ExcludeAssets clause to the reference, it is not flagged, but inst
 ```
 
 ![](RUR.png)
+
+The same issue (closed due to not enough information) for MSTest.Adapter was reported here: https://developercommunity.visualstudio.com/t/Remove-Unused-References-suggests-MSTe/1394201
