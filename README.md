@@ -15,5 +15,12 @@ I have seen similar cases before, which suggests an underlying issue; this examp
 
 We have an issue here for this: https://github.com/nunit/nunit3-vs-adapter/issues/1277
 
+If you add an ExcludeAssets clause to the reference, it is not flagged, but instead you get a warning and MTP probably don't work.
 
+```xml
+    <PackageReference Include="NUnit3TestAdapter" Version="5.0.0">
+       <ExcludeAssets>runtime; build; native; contentfiles; analyzers</ExcludeAssets>  
+    </PackageReference>
+```
 
+![](RUR.png)

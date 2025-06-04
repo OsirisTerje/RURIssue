@@ -20,7 +20,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
       <PackageReference Include="NUnit3TestAdapter" Version="5.0.0">
-          <ExcludeAssets>runtime; build; native; contentfiles; analyzers</ExcludeAssets>
+          <!--<ExcludeAssets>runtime; build; native; contentfiles; analyzers</ExcludeAssets>-->  
       </PackageReference>
   </ItemGroup>
 
